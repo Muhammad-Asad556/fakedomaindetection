@@ -1,0 +1,4 @@
+2022-12-29/09:33:02		LengthOfDateStampInFile:: 8	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 112
+
+2022-12-30/20:17:55		LengthOfDateStampInFile:: 8	LengthOfTimeStampInFile:: 6	 NumberofColumns:: 111
+
