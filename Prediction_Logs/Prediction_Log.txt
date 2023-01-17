@@ -1,0 +1,30 @@
+2023-01-17/09:11:28		Start of Validation on files for prediction!!
+2023-01-17/09:11:33		Raw Data Validation Complete!!
+2023-01-17/09:11:33		Creating Prediction_Database and tables on the basis of given schema!!!
+2023-01-17/09:11:42		Table creation Completed!!
+2023-01-17/09:11:42		Insertion of Data into Table started!!!!
+2023-01-17/09:16:51		Insertion in Table completed!!!
+2023-01-17/09:16:51		Deleting Good Data Folder!!!
+2023-01-17/09:16:51		Good_Data folder deleted!!!
+2023-01-17/09:16:51		Moving bad files to Archive and deleting Bad_Data folder!!!
+2023-01-17/09:16:51		Bad files moved to archive!! Bad folder Deleted!!
+2023-01-17/09:16:51		Validation Operation completed!!
+2023-01-17/09:16:51		Extracting csv file from table
+2023-01-17/09:16:53		Start of Prediction
+2023-01-17/09:16:53		Entered the get_data method of the Data_Getter class
+2023-01-17/09:16:53		Data Load Successful.Exited the get_data method of the Data_Getter class
+2023-01-17/09:16:53		Entered the Remove_Duplicates method of the Preprocessor class
+2023-01-17/09:16:53		Removing The Duplicates From the Data Successful. Exited the Remove_Duplicates method of the Preprocessor class
+2023-01-17/09:16:53		Entered the remove_columns_for_zero_std_deviation method of the Preprocessor class
+2023-01-17/09:16:53		Column Removes for Standard Deviation of Zero Successful. Exited the remove_columns_for_zero_std_deviation method of the Preprocessor class
+2023-01-17/09:16:53		Entered the load_model method of the File_Operation class
+2023-01-17/09:16:53		Model File KMeans loaded. Exited the load_model method of the Model_Finder class
+2023-01-17/09:16:53		Entered the find_correct_model_file method of the File_Operation class
+2023-01-17/09:16:53		Exited the find_correct_model_file method of the Model_Finder class.
+2023-01-17/09:16:53		Entered the load_model method of the File_Operation class
+2023-01-17/09:16:53		Model File GBDTClassifier0 loaded. Exited the load_model method of the Model_Finder class
+2023-01-17/09:16:53		Entered the find_correct_model_file method of the File_Operation class
+2023-01-17/09:16:53		Exited the find_correct_model_file method of the Model_Finder class.
+2023-01-17/09:16:53		Entered the load_model method of the File_Operation class
+2023-01-17/09:16:53		Model File GBDTClassifier1 loaded. Exited the load_model method of the Model_Finder class
+2023-01-17/09:16:53		End of Prediction
