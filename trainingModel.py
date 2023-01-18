@@ -39,26 +39,19 @@ class TrainModel:
             """doing the data preprocessing"""
 
             preprocessor=preprocessing.Preprocessor(self.file_object, self.log_writer)
-
-            print("data before removing duplicate rows: ", data.shape)
-            df = preprocessor.Remove_Duplicates(data)
-            print("data after removing duplicate rows: ", df.shape)
+            
+            df = preprocessor.Remove_Duplicates(data)     
 
             # create separate features and labels
             X,Y = preprocessor.Separate_Label_Feature(df, label_column_name='phishing')
-
-
-
-            # check further which columns do not contribute to predictions
-            # if the standard deviation for a column is zero, it means that the column has constant values
 
             X_new = preprocessor.Remove_Columns_For_Zero_Std_Deviation(X)
 
 
             # Handle The Imbalanced Dataset Using Nearmiss
-            print("data before handling imbalanced dataset: ", X_new.shape)
+
             X_bal, y_bal = preprocessor.Handle_Imbalance_Dataset(X_new ,Y)
-            print("data after handling imbalanced dataset: ", X_bal.shape)
+
            
 
             """ Applying the clustering approach"""
