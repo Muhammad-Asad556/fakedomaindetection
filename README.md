@@ -7,7 +7,7 @@
 
 ## **Data Batches For Training**
 
-It is actually a location from where we pull the data for training our machine learning model.
+Dataset Link [](https://data.mendeley.com/datasets/72ptz43s9v/1).
 
 ---
 
