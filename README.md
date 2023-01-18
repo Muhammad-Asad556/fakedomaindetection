@@ -37,7 +37,7 @@ After loading all the files we will export one master csv file from that databas
 
 ## **Data Preprocessing**
 
-In this step, we will check if there is any null values in our dataset, if present we will do imputation. secondly, we will check and remove all the columns whose std=0.
+In this step, we will check if there is any null values in our dataset, if present we will do imputation. secondly, we will check and remove all the columns whose std=0 and do handle imbalance dataset and also remove duplicates if present.
 
 ---
 
@@ -106,7 +106,7 @@ we will export data from database into one csv file.
 
 ## **Data Preprocessing**
 
-For prediction data, We will perform same operations as we had already performed over the training data.
+For prediction data, We will remove duplicates and remove columns whose standard deviation is 0.
 
 ---
 
